@@ -1,0 +1,58 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+}
+p{
+    width: 40px;
+    background: white;
+    padding: 10px;
+    border-radius:  10px;
+    text-align: center;
+}
+.main-container{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    padding:5px;
+    border-radius: 5px;
+    border: none;
+    height: 50px;
+    width:  100px;
+    cursor: pointer;
+}
+#incrementBtn{
+    background-color: rgb(40, 40, 224);
+    color: white;
+}
+#incrementBtn:hover{
+    background-color: rgb(14, 14, 192);
+    color: white;
+}
+#decrementBtn{
+    background-color: rgb(214, 83, 51);
+    color: white ;
+}
+#decrementBtn:hover{ 
+    background-color: rgb(191, 63, 32);
+    color: white ;
+}
+#resetBtn{
+    background-color: rgb(211, 58, 58);
+    color: white ;
+}
+#resetBtn:hover{
+    background-color: rgb(166, 21, 21);
+    color: white ;
+}
